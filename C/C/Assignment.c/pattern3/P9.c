@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main (){
+	int row;
+	printf("Enter the row no. : ");
+	scanf("%d",&row);
+	int x=0,y=0,z=1;
+	for(int i=1;i<=row;i++){
+		for(int j=1;j<=row;j++){
+			printf("%d ",y);
+			x=y;
+			y=z;
+			z=x+y;
+		
+		}
+		printf("\n");
+	}
+}
+
